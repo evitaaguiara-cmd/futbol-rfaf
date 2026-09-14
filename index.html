@@ -3,53 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Partidos RFAF</title>
+  <title>Horarios RFAF</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-100 text-slate-800 p-4 font-sans pb-12">
+<body class="bg-slate-100 text-slate-800 p-4 font-sans pb-16">
   <div class="max-w-md mx-auto space-y-4">
-    <header class="bg-red-700 text-white p-5 rounded-2xl shadow-md">
-      <h1 class="text-2xl font-bold tracking-tight">Horarios RFAF</h1>
-      <p id="reloj" class="text-xs text-red-200 mt-1 font-medium">Cargando...</p>
+    
+    <!-- Cabecera -->
+    <header class="bg-red-700 text-white p-4 rounded-2xl shadow">
+      <h1 class="text-xl font-bold">Seguimiento RFAF</h1>
+      <p id="reloj" class="text-xs text-red-200 mt-0.5">Cargando...</p>
     </header>
 
-    <div id="contenido" class="space-y-4">
-      <p class="text-center text-slate-400 py-8">Cargando información federativa...</p>
+    <!-- Selector de Jornada -->
+    <div class="bg-white p-3 rounded-xl shadow-sm border border-slate-200 flex items-center justify-between">
+      <button onclick="cambiarJornada(-1)" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-4 py-2 rounded-lg text-sm active:scale-95 transition">
+        ◀ Anterior
+      </button>
+      <div class="text-center">
+        <span class="text-xs uppercase text-slate-400 font-bold tracking-wider block">Viendo</span>
+        <span id="num-jornada" class="text-base font-extrabold text-red-700">Jornada 1</span>
+      </div>
+      <button onclick="cambiarJornada(1)" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-4 py-2 rounded-lg text-sm active:scale-95 transition">
+        Siguiente ▶
+      </button>
     </div>
+
+    <!-- Lista de Partidos por Equipo -->
+    <div id="contenedor-partidos" class="space-y-3">
+      <p class="text-center text-slate-400 py-6 text-sm">Cargando partidos...</p>
+    </div>
+
   </div>
 
   <script>
-    async function cargar() {
+    let datosGlobales = null;
+    let jornadaActual = 1;
+
+    async function iniciar() {
       try {
-        const respuesta = await fetch('datos.json?v=' + Date.now());
-        const info = await respuesta.json();
+        const res = await fetch('datos.json?v=' + Date.now());
+        datosGlobales = await res.json();
         
-        document.getElementById('reloj').innerText = 'Última revisión: ' + info.ultima_actualizacion;
-        const contenedor = document.getElementById('contenido');
-        contenedor.innerHTML = '';
-
-        for (const [_, grupo] of Object.entries(info.grupos)) {
-          const caja = document.createElement('div');
-          caja.className = 'bg-white p-4 rounded-xl shadow-sm border border-slate-200 space-y-2';
-          
-          let lista = grupo.partidos.map(p => 
-            `<li class="py-2 text-sm text-slate-700 border-b border-slate-100 last:border-b-0">${p}</li>`
-          ).join('');
-
-          caja.innerHTML = `
-            <div class="flex justify-between items-center border-b pb-2">
-              <h2 class="font-bold text-slate-800 text-sm">${grupo.nombre}</h2>
-              <span class="bg-red-50 text-red-700 text-xs px-2 py-0.5 rounded font-semibold border border-red-200">${grupo.equipo}</span>
-            </div>
-            <ul class="pt-1">${lista}</ul>
-          `;
-          contenedor.appendChild(caja);
-        }
-      } catch (e) {
-        document.getElementById('reloj').innerText = 'Sin conexión con los datos';
+        document.getElementById('reloj').innerText = 'Actualizado: ' + datosGlobales.ultima_actualizacion;
+        renderizar();
+      } catch (err) {
+        document.getElementById('reloj').innerText = 'Sin conexión de datos';
       }
     }
-    cargar();
+
+    function cambiarJornada(delta) {
+      const nuevaJornada = jornadaActual + delta;
+      if (nuevaJornada >= 1 && nuevaJornada <= 34) {
+        jornadaActual = nuevaJornada;
+        renderizar();
+      }
+    }
+
+    function renderizar() {
+      if (!datosGlobales) return;
+
+      document.getElementById('num-jornada').innerText = 'Jornada ' + jornadaActual;
+      const contenedor = document.getElementById('contenedor-partidos');
+      contenedor.innerHTML = '';
+
+      for (const [key, comp] of Object.entries(datosGlobales.competiciones)) {
+        const partido = comp.jornadas[String(jornadaActual)] || 'Sin partido programado en esta jornada';
+
+        const tarjeta = document.createElement('div');
+        tarjeta.className = 'bg-white p-4 rounded-xl shadow-sm border border-slate-200 space-y-2';
+        tarjeta.innerHTML = `
+          <div class="flex justify-between items-center border-b pb-2">
+            <h2 class="font-bold text-xs text-slate-800 uppercase tracking-tight">${comp.nombre}</h2>
+            <span class="bg-red-50 text-red-700 border border-red-200 text-xs px-2 py-0.5 rounded-full font-bold">${comp.equipo}</span>
+          </div>
+          <div class="p-2.5 bg-slate-50 rounded-lg text-sm font-medium text-slate-700 leading-snug">
+            ${partido}
+          </div>
+        `;
+        contenedor.appendChild(tarjeta);
+      }
+    }
+
+    iniciar();
   </script>
 </body>
 </html>
