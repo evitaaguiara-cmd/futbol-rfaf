@@ -1,112 +1,262 @@
 {
-  "ultima_actualizacion": "14/09/2026 11:46",
+  "ultima_actualizacion": "14/09/2026 11:56",
   "competiciones": {
     "senior_calavera": {
       "nombre": "2ª Andaluza Senior - Gr. 1",
       "equipo": "CALAVERA",
       "jornadas": {
-        "1": "Jornada 1: Horario pendiente de fijar por federación",
-        "2": "Jornada 2: Horario pendiente de fijar por federación",
-        "3": "Jornada 3: Horario pendiente de fijar por federación",
-        "4": "Jornada 4: Horario pendiente de fijar por federación",
-        "5": "Jornada 5: Horario pendiente de fijar por federación",
-        "6": "Jornada 6: Horario pendiente de fijar por federación",
-        "7": "Jornada 7: Horario pendiente de fijar por federación",
-        "8": "Jornada 8: Horario pendiente de fijar por federación",
-        "9": "Jornada 9: Horario pendiente de fijar por federación",
-        "10": "Jornada 10: Horario pendiente de fijar por federación",
-        "11": "Jornada 11: Horario pendiente de fijar por federación",
-        "12": "Jornada 12: Horario pendiente de fijar por federación",
-        "13": "Jornada 13: Horario pendiente de fijar por federación",
-        "14": "Jornada 14: Horario pendiente de fijar por federación",
-        "15": "Jornada 15: Horario pendiente de fijar por federación",
-        "16": "Jornada 16: Horario pendiente de fijar por federación",
-        "17": "Jornada 17: Horario pendiente de fijar por federación",
-        "18": "Jornada 18: Horario pendiente de fijar por federación",
-        "19": "Jornada 19: Horario pendiente de fijar por federación",
-        "20": "Jornada 20: Horario pendiente de fijar por federación",
-        "21": "Jornada 21: Horario pendiente de fijar por federación",
-        "22": "Jornada 22: Horario pendiente de fijar por federación",
-        "23": "Jornada 23: Horario pendiente de fijar por federación",
-        "24": "Jornada 24: Horario pendiente de fijar por federación",
-        "25": "Jornada 25: Horario pendiente de fijar por federación",
-        "26": "Jornada 26: Horario pendiente de fijar por federación",
-        "27": "Jornada 27: Horario pendiente de fijar por federación",
-        "28": "Jornada 28: Horario pendiente de fijar por federación",
-        "29": "Jornada 29: Horario pendiente de fijar por federación",
-        "30": "Jornada 30: Horario pendiente de fijar por federación"
+        "1": {
+          "partido": "C.D. DE FÚTBOL HERRERA vs CALAVERA C.F.",
+          "local": "C.D. DE FÚTBOL HERRERA",
+          "visitante": "CALAVERA C.F.",
+          "fecha": "Fecha por confirmar",
+          "hora": "19:00",
+          "campo": "Herrera - POLIDEPORTIVO MUNICIPAL ESTADIO JUAN BENJUMEA (F11)Hierba NaturalÁrbitro:PORRAS GALLEGOS, JOSE",
+          "resultado": "13-09"
+        },
+        "2": {
+          "partido": "CALAVERA C.F. vs ESTRELLA SAN AGUSTIN",
+          "local": "CALAVERA C.F.",
+          "visitante": "ESTRELLA SAN AGUSTIN",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
+          "resultado": "20-09"
+        },
+        "3": {
+          "partido": "CLUB ATLÉTICO CENTRAL vs CALAVERA C.F.",
+          "local": "CLUB ATLÉTICO CENTRAL",
+          "visitante": "CALAVERA C.F.",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Alcalá De Guadaíra - CIUDAD DE ALCALÁ NUEVO ESTADIO (F11)Hierba Artificial",
+          "resultado": "27-09"
+        },
+        "4": {
+          "partido": "CALAVERA C.F. vs C.D. CABECENSE",
+          "local": "CALAVERA C.F.",
+          "visitante": "C.D. CABECENSE",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
+          "resultado": "04-10"
+        },
+        "5": {
+          "partido": "C.D. FUENTES vs CALAVERA C.F.",
+          "local": "C.D. FUENTES",
+          "visitante": "CALAVERA C.F.",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Fuentes De Andalucía - EL BARRACÓN(F11-F7)Hierba Artificial",
+          "resultado": "11-10"
+        },
+        "6": {
+          "partido": "CALAVERA C.F. vs ECIJA BALOMPIE, S.A.D.",
+          "local": "CALAVERA C.F.",
+          "visitante": "ECIJA BALOMPIE, S.A.D.",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
+          "resultado": "18-10"
+        },
+        "7": {
+          "partido": "P.D. ROCIERA vs CALAVERA C.F.",
+          "local": "P.D. ROCIERA",
+          "visitante": "CALAVERA C.F.",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Dos Hermanas - MANUEL ADAME BRUÑA MUNICIPAL (F11-F7)Hierba Artificial",
+          "resultado": "25-10"
+        },
+        "8": {
+          "partido": "CALAVERA C.F. vs DOS HERMANAS CLUB DE FÚTBOL 1971",
+          "local": "CALAVERA C.F.",
+          "visitante": "DOS HERMANAS CLUB DE FÚTBOL 1971",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
+          "resultado": "01-11"
+        },
+        "9": {
+          "partido": "CALAVERA C.F. vs LA MOTILLA F.C.",
+          "local": "CALAVERA C.F.",
+          "visitante": "LA MOTILLA F.C.",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
+          "resultado": "08-11"
+        },
+        "10": {
+          "partido": "C.D. ASOC. DVA. NERVION vs CALAVERA C.F.",
+          "local": "C.D. ASOC. DVA. NERVION",
+          "visitante": "CALAVERA C.F.",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - ANTONIO PUERTA IMD (F11-F7)Hierba Artificial",
+          "resultado": "15-11"
+        }
       }
     },
     "infantil_sevilla": {
       "nombre": "4ª Andaluza Infantil - Gr. 7",
       "equipo": "SEVILLA",
       "jornadas": {
-        "1": "Jornada 1: Horario pendiente de fijar por federación",
-        "2": "Jornada 2: Horario pendiente de fijar por federación",
-        "3": "Jornada 3: Horario pendiente de fijar por federación",
-        "4": "Jornada 4: Horario pendiente de fijar por federación",
-        "5": "Jornada 5: Horario pendiente de fijar por federación",
-        "6": "Jornada 6: Horario pendiente de fijar por federación",
-        "7": "Jornada 7: Horario pendiente de fijar por federación",
-        "8": "Jornada 8: Horario pendiente de fijar por federación",
-        "9": "Jornada 9: Horario pendiente de fijar por federación",
-        "10": "Jornada 10: Horario pendiente de fijar por federación",
-        "11": "Jornada 11: Horario pendiente de fijar por federación",
-        "12": "Jornada 12: Horario pendiente de fijar por federación",
-        "13": "Jornada 13: Horario pendiente de fijar por federación",
-        "14": "Jornada 14: Horario pendiente de fijar por federación",
-        "15": "Jornada 15: Horario pendiente de fijar por federación",
-        "16": "Jornada 16: Horario pendiente de fijar por federación",
-        "17": "Jornada 17: Horario pendiente de fijar por federación",
-        "18": "Jornada 18: Horario pendiente de fijar por federación",
-        "19": "Jornada 19: Horario pendiente de fijar por federación",
-        "20": "Jornada 20: Horario pendiente de fijar por federación",
-        "21": "Jornada 21: Horario pendiente de fijar por federación",
-        "22": "Jornada 22: Horario pendiente de fijar por federación",
-        "23": "Jornada 23: Horario pendiente de fijar por federación",
-        "24": "Jornada 24: Horario pendiente de fijar por federación",
-        "25": "Jornada 25: Horario pendiente de fijar por federación",
-        "26": "Jornada 26: Horario pendiente de fijar por federación",
-        "27": "Jornada 27: Horario pendiente de fijar por federación",
-        "28": "Jornada 28: Horario pendiente de fijar por federación",
-        "29": "Jornada 29: Horario pendiente de fijar por federación",
-        "30": "Jornada 30: Horario pendiente de fijar por federación"
+        "1": {
+          "partido": "DAVID CASTEDO 3 (DC 3) C.D. \"B\" vs SEVILLA F.C., S.A.D. \"B\"",
+          "local": "DAVID CASTEDO 3 (DC 3) C.D. \"B\"",
+          "visitante": "SEVILLA F.C., S.A.D. \"B\"",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Dos Hermanas - MANUEL UTRILLA MUNICIPAL (F11-F7)Hierba Artificial",
+          "resultado": "27-09"
+        },
+        "2": {
+          "partido": "SEVILLA F.C., S.A.D. \"B\" vs C. ATL. ANTONIANO GRUPO VELAZQUEZ \"B\"",
+          "local": "SEVILLA F.C., S.A.D. \"B\"",
+          "visitante": "C. ATL. ANTONIANO GRUPO VELAZQUEZ \"B\"",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Dos Hermanas - JOSE RAMÓN CISNEROS CIUDAD DEPORTIVA (F11-F7)Hierba Artificial",
+          "resultado": "04-10"
+        },
+        "3": {
+          "partido": "SEVILLA F.C., S.A.D. \"B\" vs U.D. BELLAVISTA",
+          "local": "SEVILLA F.C., S.A.D. \"B\"",
+          "visitante": "U.D. BELLAVISTA",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Dos Hermanas - JOSE RAMÓN CISNEROS CIUDAD DEPORTIVA (F11-F7)Hierba Artificial",
+          "resultado": "11-10"
+        },
+        "4": {
+          "partido": "U.D. BELLAVISTA vs C. ATL. ANTONIANO GRUPO VELAZQUEZ \"B\"",
+          "local": "U.D. BELLAVISTA",
+          "visitante": "C. ATL. ANTONIANO GRUPO VELAZQUEZ \"B\"",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - UD BELLAVISTA CAMPO EDUARDO HERRERA(F11-F7)Hierba Artificial",
+          "resultado": "18-10"
+        },
+        "5": {
+          "partido": "U.D. BELLAVISTA vs C.D. SEDEDOS \"B\"",
+          "local": "U.D. BELLAVISTA",
+          "visitante": "C.D. SEDEDOS \"B\"",
+          "fecha": "Fecha por confirmar",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - UD BELLAVISTA CAMPO EDUARDO HERRERA(F11-F7)Hierba Artificial",
+          "resultado": "25-10"
+        },
+        "6": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "7": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "8": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "9": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "10": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        }
       }
     },
     "benjamin_sevilla": {
       "nombre": "4ª Andaluza Benjamín - Gr. 8",
       "equipo": "SEVILLA",
       "jornadas": {
-        "1": "Jornada 1: Horario pendiente de fijar por federación",
-        "2": "Jornada 2: Horario pendiente de fijar por federación",
-        "3": "Jornada 3: Horario pendiente de fijar por federación",
-        "4": "Jornada 4: Horario pendiente de fijar por federación",
-        "5": "Jornada 5: Horario pendiente de fijar por federación",
-        "6": "Jornada 6: Horario pendiente de fijar por federación",
-        "7": "Jornada 7: Horario pendiente de fijar por federación",
-        "8": "Jornada 8: Horario pendiente de fijar por federación",
-        "9": "Jornada 9: Horario pendiente de fijar por federación",
-        "10": "Jornada 10: Horario pendiente de fijar por federación",
-        "11": "Jornada 11: Horario pendiente de fijar por federación",
-        "12": "Jornada 12: Horario pendiente de fijar por federación",
-        "13": "Jornada 13: Horario pendiente de fijar por federación",
-        "14": "Jornada 14: Horario pendiente de fijar por federación",
-        "15": "Jornada 15: Horario pendiente de fijar por federación",
-        "16": "Jornada 16: Horario pendiente de fijar por federación",
-        "17": "Jornada 17: Horario pendiente de fijar por federación",
-        "18": "Jornada 18: Horario pendiente de fijar por federación",
-        "19": "Jornada 19: Horario pendiente de fijar por federación",
-        "20": "Jornada 20: Horario pendiente de fijar por federación",
-        "21": "Jornada 21: Horario pendiente de fijar por federación",
-        "22": "Jornada 22: Horario pendiente de fijar por federación",
-        "23": "Jornada 23: Horario pendiente de fijar por federación",
-        "24": "Jornada 24: Horario pendiente de fijar por federación",
-        "25": "Jornada 25: Horario pendiente de fijar por federación",
-        "26": "Jornada 26: Horario pendiente de fijar por federación",
-        "27": "Jornada 27: Horario pendiente de fijar por federación",
-        "28": "Jornada 28: Horario pendiente de fijar por federación",
-        "29": "Jornada 29: Horario pendiente de fijar por federación",
-        "30": "Jornada 30: Horario pendiente de fijar por federación"
+        "1": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "2": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "3": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "4": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "5": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "6": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "7": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "8": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "9": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        },
+        "10": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---",
+          "resultado": ""
+        }
       }
     }
   }
