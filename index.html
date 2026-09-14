@@ -31,7 +31,7 @@
 
     <!-- Lista de Partidos -->
     <div id="contenedor-partidos" class="space-y-3">
-      <p class="text-center text-slate-400 py-6 text-sm">Cargando horarios y campos...</p>
+      <p class="text-center text-slate-400 py-6 text-sm">Cargando partidos...</p>
     </div>
 
   </div>
@@ -53,7 +53,7 @@
 
     function cambiarJornada(delta) {
       const nueva = jornadaActual + delta;
-      if (nueva >= 1 && nueva <= 10) {
+      if (nueva >= 1 && nueva <= 14) {
         jornadaActual = nueva;
         renderizar();
       }
@@ -71,8 +71,7 @@
           partido: 'Sin información',
           fecha: '---',
           hora: '---',
-          campo: '---',
-          resultado: ''
+          campo: '---'
         };
 
         const tarjeta = document.createElement('div');
@@ -84,19 +83,22 @@
             <span class="bg-red-50 text-red-700 border border-red-200 text-xs px-2 py-0.5 rounded-full font-bold">${comp.equipo}</span>
           </div>
 
-          <div class="space-y-2">
-            <div class="font-bold text-slate-900 text-sm">${info.partido}</div>
+          <div class="space-y-2.5">
+            <div class="font-bold text-slate-900 text-sm leading-snug">${info.partido}</div>
             
-            ${info.resultado ? `<div class="inline-block bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs px-2 py-0.5 rounded font-bold">Resultado: ${info.resultado}</div>` : ''}
+            <div class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-800 border border-blue-200 text-xs font-semibold px-2.5 py-1 rounded-md">
+              <span>📅</span>
+              <span>Fecha: ${info.fecha}</span>
+            </div>
 
-            <div class="bg-slate-50 p-2.5 rounded-lg space-y-1 text-xs">
-              <div class="flex items-center text-slate-600">
-                <span class="font-semibold w-16 text-slate-400">📅 Cuándo:</span>
-                <span class="font-bold text-slate-800">${info.fecha} a las ${info.hora}</span>
+            <div class="bg-slate-50 p-2.5 rounded-lg space-y-1.5 text-xs border border-slate-100">
+              <div class="flex items-center text-slate-700">
+                <span class="font-bold w-14 text-slate-400">⏰ Hora:</span>
+                <span class="font-bold text-slate-900">${info.hora}</span>
               </div>
-              <div class="flex items-start text-slate-600">
-                <span class="font-semibold w-16 text-slate-400">📍 Campo:</span>
-                <span class="font-medium text-slate-700">${info.campo}</span>
+              <div class="flex items-start text-slate-700">
+                <span class="font-bold w-14 text-slate-400">📍 Campo:</span>
+                <span class="font-medium text-slate-800 leading-tight">${info.campo}</span>
               </div>
             </div>
           </div>
