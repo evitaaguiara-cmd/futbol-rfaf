@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "14/09/2026 11:56",
+  "ultima_actualizacion": "14/09/2026 12:08",
   "competiciones": {
     "senior_calavera": {
       "nombre": "2ª Andaluza Senior - Gr. 1",
@@ -9,91 +9,113 @@
           "partido": "C.D. DE FÚTBOL HERRERA vs CALAVERA C.F.",
           "local": "C.D. DE FÚTBOL HERRERA",
           "visitante": "CALAVERA C.F.",
-          "fecha": "Fecha por confirmar",
+          "fecha": "13/09/2026",
           "hora": "19:00",
-          "campo": "Herrera - POLIDEPORTIVO MUNICIPAL ESTADIO JUAN BENJUMEA (F11)Hierba NaturalÁrbitro:PORRAS GALLEGOS, JOSE",
-          "resultado": "13-09"
+          "campo": "Herrera - POLIDEPORTIVO MUNICIPAL ESTADIO JUAN BENJUMEA (F11)Hierba Natural"
         },
         "2": {
           "partido": "CALAVERA C.F. vs ESTRELLA SAN AGUSTIN",
           "local": "CALAVERA C.F.",
           "visitante": "ESTRELLA SAN AGUSTIN",
-          "fecha": "Fecha por confirmar",
+          "fecha": "20/09/2026",
           "hora": "Horario por definir",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
-          "resultado": "20-09"
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
         },
         "3": {
           "partido": "CLUB ATLÉTICO CENTRAL vs CALAVERA C.F.",
           "local": "CLUB ATLÉTICO CENTRAL",
           "visitante": "CALAVERA C.F.",
-          "fecha": "Fecha por confirmar",
+          "fecha": "27/09/2026",
           "hora": "Horario por definir",
-          "campo": "Alcalá De Guadaíra - CIUDAD DE ALCALÁ NUEVO ESTADIO (F11)Hierba Artificial",
-          "resultado": "27-09"
+          "campo": "Alcalá De Guadaíra - CIUDAD DE ALCALÁ NUEVO ESTADIO (F11)Hierba Artificial"
         },
         "4": {
           "partido": "CALAVERA C.F. vs C.D. CABECENSE",
           "local": "CALAVERA C.F.",
           "visitante": "C.D. CABECENSE",
-          "fecha": "Fecha por confirmar",
+          "fecha": "04/10/2026",
           "hora": "Horario por definir",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
-          "resultado": "04-10"
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
         },
         "5": {
           "partido": "C.D. FUENTES vs CALAVERA C.F.",
           "local": "C.D. FUENTES",
           "visitante": "CALAVERA C.F.",
-          "fecha": "Fecha por confirmar",
+          "fecha": "11/10/2026",
           "hora": "Horario por definir",
-          "campo": "Fuentes De Andalucía - EL BARRACÓN(F11-F7)Hierba Artificial",
-          "resultado": "11-10"
+          "campo": "Fuentes De Andalucía - EL BARRACÓN(F11-F7)Hierba Artificial"
         },
         "6": {
           "partido": "CALAVERA C.F. vs ECIJA BALOMPIE, S.A.D.",
           "local": "CALAVERA C.F.",
           "visitante": "ECIJA BALOMPIE, S.A.D.",
-          "fecha": "Fecha por confirmar",
+          "fecha": "18/10/2026",
           "hora": "Horario por definir",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
-          "resultado": "18-10"
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
         },
         "7": {
           "partido": "P.D. ROCIERA vs CALAVERA C.F.",
           "local": "P.D. ROCIERA",
           "visitante": "CALAVERA C.F.",
-          "fecha": "Fecha por confirmar",
+          "fecha": "25/10/2026",
           "hora": "Horario por definir",
-          "campo": "Dos Hermanas - MANUEL ADAME BRUÑA MUNICIPAL (F11-F7)Hierba Artificial",
-          "resultado": "25-10"
+          "campo": "Dos Hermanas - MANUEL ADAME BRUÑA MUNICIPAL (F11-F7)Hierba Artificial"
         },
         "8": {
           "partido": "CALAVERA C.F. vs DOS HERMANAS CLUB DE FÚTBOL 1971",
           "local": "CALAVERA C.F.",
           "visitante": "DOS HERMANAS CLUB DE FÚTBOL 1971",
-          "fecha": "Fecha por confirmar",
+          "fecha": "01/11/2026",
           "hora": "Horario por definir",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
-          "resultado": "01-11"
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
         },
         "9": {
           "partido": "CALAVERA C.F. vs LA MOTILLA F.C.",
           "local": "CALAVERA C.F.",
           "visitante": "LA MOTILLA F.C.",
-          "fecha": "Fecha por confirmar",
+          "fecha": "08/11/2026",
           "hora": "Horario por definir",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial",
-          "resultado": "08-11"
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
         },
         "10": {
           "partido": "C.D. ASOC. DVA. NERVION vs CALAVERA C.F.",
           "local": "C.D. ASOC. DVA. NERVION",
           "visitante": "CALAVERA C.F.",
-          "fecha": "Fecha por confirmar",
+          "fecha": "15/11/2026",
           "hora": "Horario por definir",
-          "campo": "Sevilla - ANTONIO PUERTA IMD (F11-F7)Hierba Artificial",
-          "resultado": "15-11"
+          "campo": "Sevilla - ANTONIO PUERTA IMD (F11-F7)Hierba Artificial"
+        },
+        "11": {
+          "partido": "CALAVERA C.F. vs A.D. CERRO DEL AGUILA",
+          "local": "CALAVERA C.F.",
+          "visitante": "A.D. CERRO DEL AGUILA",
+          "fecha": "22/11/2026",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+        },
+        "12": {
+          "partido": "LA LIARA BALOMPIE vs CALAVERA C.F.",
+          "local": "LA LIARA BALOMPIE",
+          "visitante": "CALAVERA C.F.",
+          "fecha": "29/11/2026",
+          "hora": "Horario por definir",
+          "campo": "Palacios (Los) - MARISMAS MUNICIPAL (F11-F7)Hierba Artificial"
+        },
+        "13": {
+          "partido": "CALAVERA C.F. vs U.D. MORON C.F.",
+          "local": "CALAVERA C.F.",
+          "visitante": "U.D. MORON C.F.",
+          "fecha": "06/12/2026",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+        },
+        "14": {
+          "partido": "C.D. EL PALMAR VEREDA REAL vs CALAVERA C.F.",
+          "local": "C.D. EL PALMAR VEREDA REAL",
+          "visitante": "CALAVERA C.F.",
+          "fecha": "08/12/2026",
+          "hora": "Horario por definir",
+          "campo": "Utrera - EL PALMAR CAMPO MUNICIPAL DEPORTESHierba Artificial"
         }
       }
     },
@@ -105,81 +127,87 @@
           "partido": "DAVID CASTEDO 3 (DC 3) C.D. \"B\" vs SEVILLA F.C., S.A.D. \"B\"",
           "local": "DAVID CASTEDO 3 (DC 3) C.D. \"B\"",
           "visitante": "SEVILLA F.C., S.A.D. \"B\"",
-          "fecha": "Fecha por confirmar",
+          "fecha": "27/09/2026",
           "hora": "Horario por definir",
-          "campo": "Dos Hermanas - MANUEL UTRILLA MUNICIPAL (F11-F7)Hierba Artificial",
-          "resultado": "27-09"
+          "campo": "Dos Hermanas - MANUEL UTRILLA MUNICIPAL (F11-F7)Hierba Artificial"
         },
         "2": {
-          "partido": "SEVILLA F.C., S.A.D. \"B\" vs C. ATL. ANTONIANO GRUPO VELAZQUEZ \"B\"",
-          "local": "SEVILLA F.C., S.A.D. \"B\"",
-          "visitante": "C. ATL. ANTONIANO GRUPO VELAZQUEZ \"B\"",
-          "fecha": "Fecha por confirmar",
-          "hora": "Horario por definir",
-          "campo": "Dos Hermanas - JOSE RAMÓN CISNEROS CIUDAD DEPORTIVA (F11-F7)Hierba Artificial",
-          "resultado": "04-10"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "3": {
-          "partido": "SEVILLA F.C., S.A.D. \"B\" vs U.D. BELLAVISTA",
-          "local": "SEVILLA F.C., S.A.D. \"B\"",
-          "visitante": "U.D. BELLAVISTA",
-          "fecha": "Fecha por confirmar",
-          "hora": "Horario por definir",
-          "campo": "Dos Hermanas - JOSE RAMÓN CISNEROS CIUDAD DEPORTIVA (F11-F7)Hierba Artificial",
-          "resultado": "11-10"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "4": {
-          "partido": "U.D. BELLAVISTA vs C. ATL. ANTONIANO GRUPO VELAZQUEZ \"B\"",
-          "local": "U.D. BELLAVISTA",
-          "visitante": "C. ATL. ANTONIANO GRUPO VELAZQUEZ \"B\"",
-          "fecha": "Fecha por confirmar",
-          "hora": "Horario por definir",
-          "campo": "Sevilla - UD BELLAVISTA CAMPO EDUARDO HERRERA(F11-F7)Hierba Artificial",
-          "resultado": "18-10"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "5": {
-          "partido": "U.D. BELLAVISTA vs C.D. SEDEDOS \"B\"",
-          "local": "U.D. BELLAVISTA",
-          "visitante": "C.D. SEDEDOS \"B\"",
-          "fecha": "Fecha por confirmar",
-          "hora": "Horario por definir",
-          "campo": "Sevilla - UD BELLAVISTA CAMPO EDUARDO HERRERA(F11-F7)Hierba Artificial",
-          "resultado": "25-10"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "6": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "7": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "8": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "9": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "10": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
+        },
+        "11": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
+        },
+        "12": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
+        },
+        "13": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
+        },
+        "14": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         }
       }
     },
@@ -191,71 +219,85 @@
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "2": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "3": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "4": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "5": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "6": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "7": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "8": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "9": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
         },
         "10": {
           "partido": "Descansa o jornada sin publicar",
           "fecha": "---",
           "hora": "---",
-          "campo": "---",
-          "resultado": ""
+          "campo": "---"
+        },
+        "11": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
+        },
+        "12": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
+        },
+        "13": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
+        },
+        "14": {
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         }
       }
     }
