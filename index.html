@@ -18,20 +18,20 @@
     <!-- Selector de Jornada -->
     <div class="bg-white p-3 rounded-xl shadow-sm border border-slate-200 flex items-center justify-between">
       <button onclick="cambiarJornada(-1)" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-4 py-2 rounded-lg text-sm active:scale-95 transition">
-        ◀ Anterior
+        ◀ Ant
       </button>
       <div class="text-center">
-        <span class="text-xs uppercase text-slate-400 font-bold tracking-wider block">Viendo</span>
+        <span class="text-[11px] uppercase text-slate-400 font-bold tracking-wider block">Competición</span>
         <span id="num-jornada" class="text-base font-extrabold text-red-700">Jornada 1</span>
       </div>
       <button onclick="cambiarJornada(1)" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-4 py-2 rounded-lg text-sm active:scale-95 transition">
-        Siguiente ▶
+        Sig ▶
       </button>
     </div>
 
-    <!-- Lista de Partidos por Equipo -->
+    <!-- Lista de Partidos -->
     <div id="contenedor-partidos" class="space-y-3">
-      <p class="text-center text-slate-400 py-6 text-sm">Cargando partidos...</p>
+      <p class="text-center text-slate-400 py-6 text-sm">Cargando horarios y campos...</p>
     </div>
 
   </div>
@@ -44,7 +44,6 @@
       try {
         const res = await fetch('datos.json?v=' + Date.now());
         datosGlobales = await res.json();
-        
         document.getElementById('reloj').innerText = 'Actualizado: ' + datosGlobales.ultima_actualizacion;
         renderizar();
       } catch (err) {
@@ -53,9 +52,9 @@
     }
 
     function cambiarJornada(delta) {
-      const nuevaJornada = jornadaActual + delta;
-      if (nuevaJornada >= 1 && nuevaJornada <= 34) {
-        jornadaActual = nuevaJornada;
+      const nueva = jornadaActual + delta;
+      if (nueva >= 1 && nueva <= 10) {
+        jornadaActual = nueva;
         renderizar();
       }
     }
@@ -68,17 +67,38 @@
       contenedor.innerHTML = '';
 
       for (const [key, comp] of Object.entries(datosGlobales.competiciones)) {
-        const partido = comp.jornadas[String(jornadaActual)] || 'Sin partido programado en esta jornada';
+        const info = comp.jornadas[String(jornadaActual)] || {
+          partido: 'Sin información',
+          fecha: '---',
+          hora: '---',
+          campo: '---',
+          resultado: ''
+        };
 
         const tarjeta = document.createElement('div');
-        tarjeta.className = 'bg-white p-4 rounded-xl shadow-sm border border-slate-200 space-y-2';
+        tarjeta.className = 'bg-white p-4 rounded-xl shadow-sm border border-slate-200 space-y-3';
+        
         tarjeta.innerHTML = `
-          <div class="flex justify-between items-center border-b pb-2">
-            <h2 class="font-bold text-xs text-slate-800 uppercase tracking-tight">${comp.nombre}</h2>
+          <div class="flex justify-between items-center border-b border-slate-100 pb-2">
+            <h2 class="font-bold text-xs text-slate-700 uppercase tracking-tight">${comp.nombre}</h2>
             <span class="bg-red-50 text-red-700 border border-red-200 text-xs px-2 py-0.5 rounded-full font-bold">${comp.equipo}</span>
           </div>
-          <div class="p-2.5 bg-slate-50 rounded-lg text-sm font-medium text-slate-700 leading-snug">
-            ${partido}
+
+          <div class="space-y-2">
+            <div class="font-bold text-slate-900 text-sm">${info.partido}</div>
+            
+            ${info.resultado ? `<div class="inline-block bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs px-2 py-0.5 rounded font-bold">Resultado: ${info.resultado}</div>` : ''}
+
+            <div class="bg-slate-50 p-2.5 rounded-lg space-y-1 text-xs">
+              <div class="flex items-center text-slate-600">
+                <span class="font-semibold w-16 text-slate-400">📅 Cuándo:</span>
+                <span class="font-bold text-slate-800">${info.fecha} a las ${info.hora}</span>
+              </div>
+              <div class="flex items-start text-slate-600">
+                <span class="font-semibold w-16 text-slate-400">📍 Campo:</span>
+                <span class="font-medium text-slate-700">${info.campo}</span>
+              </div>
+            </div>
           </div>
         `;
         contenedor.appendChild(tarjeta);
