@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Partidos RFAF</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800 p-4 font-sans pb-12">
+  <div class="max-w-md mx-auto space-y-4">
+    <header class="bg-red-700 text-white p-5 rounded-2xl shadow-md">
+      <h1 class="text-2xl font-bold tracking-tight">Horarios RFAF</h1>
+      <p id="reloj" class="text-xs text-red-200 mt-1 font-medium">Cargando...</p>
+    </header>
+
+    <div id="contenido" class="space-y-4">
+      <p class="text-center text-slate-400 py-8">Cargando información federativa...</p>
+    </div>
+  </div>
+
+  <script>
+    async function cargar() {
+      try {
+        const respuesta = await fetch('datos.json?v=' + Date.now());
+        const info = await respuesta.json();
+        
+        document.getElementById('reloj').innerText = 'Última revisión: ' + info.ultima_actualizacion;
+        const contenedor = document.getElementById('contenido');
+        contenedor.innerHTML = '';
+
+        for (const [_, grupo] of Object.entries(info.grupos)) {
+          const caja = document.createElement('div');
+          caja.className = 'bg-white p-4 rounded-xl shadow-sm border border-slate-200 space-y-2';
+          
+          let lista = grupo.partidos.map(p => 
+            `<li class="py-2 text-sm text-slate-700 border-b border-slate-100 last:border-b-0">${p}</li>`
+          ).join('');
+
+          caja.innerHTML = `
+            <div class="flex justify-between items-center border-b pb-2">
+              <h2 class="font-bold text-slate-800 text-sm">${grupo.nombre}</h2>
+              <span class="bg-red-50 text-red-700 text-xs px-2 py-0.5 rounded font-semibold border border-red-200">${grupo.equipo}</span>
+            </div>
+            <ul class="pt-1">${lista}</ul>
+          `;
+          contenedor.appendChild(caja);
+        }
+      } catch (e) {
+        document.getElementById('reloj').innerText = 'Sin conexión con los datos';
+      }
+    }
+    cargar();
+  </script>
+</body>
+</html>
