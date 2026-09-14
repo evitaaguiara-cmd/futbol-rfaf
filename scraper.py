@@ -7,17 +7,17 @@ COMPETICIONES = {
     "senior_calavera": {
         "nombre": "2ª Andaluza Senior - Gr. 1",
         "equipo_foco": "CALAVERA",
-        "url": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&cod_competicion=1000000&cod_grupo=1000001",
+        "url": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCompeticiones_Grupo?&cod_primaria=1000123&codequipo=100415&codgrupo=48466127",
     },
     "infantil_sevilla": {
         "nombre": "4ª Andaluza Infantil - Gr. 7",
         "equipo_foco": "SEVILLA",
-        "url": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&cod_competicion=1000000&cod_grupo=1000007",
+        "url": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCompeticiones_Grupo?&cod_primaria=1000123&codequipo=100122&codgrupo=48466278",
     },
     "benjamin_sevilla": {
         "nombre": "4ª Andaluza Benjamín - Gr. 8",
         "equipo_foco": "SEVILLA",
-        "url": "https://www.rfaf.es/pnfg/NPcd/NFG_CmpJornada?cod_primaria=1000120&cod_competicion=1000000&cod_grupo=1000008",
+        "url": "https://www.rfaf.es/pnfg/NPcd/NFG_VisCompeticiones_Grupo?&cod_primaria=1000123&codequipo=48485959&codgrupo=48466414",
     },
 }
 
