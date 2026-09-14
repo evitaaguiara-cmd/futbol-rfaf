@@ -1,0 +1,26 @@
+{
+  "ultima_actualizacion": "14/09/2026 11:28",
+  "grupos": {
+    "senior_calavera": {
+      "nombre": "2ª Andaluza Senior - Gr. 1",
+      "equipo": "CALAVERA",
+      "partidos": [
+        "No hay datos publicados aún para esta jornada"
+      ]
+    },
+    "infantil_sevilla": {
+      "nombre": "4ª Andaluza Infantil - Gr. 7",
+      "equipo": "SEVILLA",
+      "partidos": [
+        "No hay datos publicados aún para esta jornada"
+      ]
+    },
+    "benjamin_sevilla": {
+      "nombre": "4ª Andaluza Benjamín - Gr. 8",
+      "equipo": "SEVILLA",
+      "partidos": [
+        "No hay datos publicados aún para esta jornada"
+      ]
+    }
+  }
+}
