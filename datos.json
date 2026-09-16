@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "16/09/2026 14:18",
+  "ultima_actualizacion": "16/09/2026 18:19",
   "competiciones": {
     "senior_calavera": {
       "nombre": "2ª Andaluza Senior - Gr. 1",
@@ -124,12 +124,12 @@
       "equipo": "SEVILLA",
       "jornadas": {
         "1": {
-          "partido": "DAVID CASTEDO 3 (DC 3) C.D. \"B\" vs SEVILLA F.C., S.A.D. \"B\"",
-          "local": "DAVID CASTEDO 3 (DC 3) C.D. \"B\"",
-          "visitante": "SEVILLA F.C., S.A.D. \"B\"",
-          "fecha": "27/09/2026",
-          "hora": "Horario por definir",
-          "campo": "Dos Hermanas - MANUEL UTRILLA MUNICIPAL (F11-F7)Hierba Artificial"
+          "partido": "C.D. ALL SPORTS BERMEJALES vs U.D. BELLAVISTA",
+          "local": "C.D. ALL SPORTS BERMEJALES",
+          "visitante": "U.D. BELLAVISTA",
+          "fecha": "26/09/2026",
+          "hora": "12:00",
+          "campo": "Sevilla - UD BELLAVISTA CAMPO MANUEL BARRAGÁN (F7)Hierba Artificial"
         },
         "2": {
           "partido": "Descansa o jornada sin publicar",
