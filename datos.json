@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "21/09/2026 22:16",
+  "ultima_actualizacion": "22/09/2026 08:17",
   "competiciones": {
     "senior_calavera": {
       "nombre": "2ª Andaluza Senior - Gr. 1",
@@ -124,12 +124,12 @@
       "equipo": "SEVILLA",
       "jornadas": {
         "1": {
-          "partido": "C.D. ALL SPORTS BERMEJALES vs U.D. BELLAVISTA",
-          "local": "C.D. ALL SPORTS BERMEJALES",
-          "visitante": "U.D. BELLAVISTA",
-          "fecha": "26/09/2026",
+          "partido": "SAN ROQUE BALOMPIE \"B\" vs A.C.D. ENTRETORRES",
+          "local": "SAN ROQUE BALOMPIE \"B\"",
+          "visitante": "A.C.D. ENTRETORRES",
+          "fecha": "25/09/2026",
           "hora": "Horario por definir",
-          "campo": "Sevilla - BELLAVISTA CD (F11-F7)Hierba Artificial"
+          "campo": "Sevilla - DEMETRIO PICHEL CD (F11-F7)Hierba Artificial"
         },
         "2": {
           "partido": "Descansa o jornada sin publicar",
