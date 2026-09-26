@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "26/09/2026 18:18",
+  "ultima_actualizacion": "26/09/2026 22:16",
   "competiciones": {
     "senior_calavera": {
       "nombre": "2ª Andaluza Senior - Gr. 1",
@@ -12,6 +12,14 @@
           "fecha": "13/09/2026",
           "hora": "19:00",
           "campo": "Herrera - POLIDEPORTIVO MUNICIPAL ESTADIO JUAN BENJUMEA (F11)Hierba Natural"
+        },
+        "2": {
+          "partido": "CALAVERA C.F. vs ESTRELLA SAN AGUSTIN",
+          "local": "CALAVERA C.F.",
+          "visitante": "ESTRELLA SAN AGUSTIN",
+          "fecha": "20/09/2026",
+          "hora": "20:00",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
         },
         "3": {
           "partido": "CLUB ATLÉTICO CENTRAL vs CALAVERA C.F.",
@@ -53,6 +61,14 @@
           "hora": "Horario por definir",
           "campo": "Dos Hermanas - MANUEL ADAME BRUÑA MUNICIPAL (F11-F7)Hierba Artificial"
         },
+        "8": {
+          "partido": "CALAVERA C.F. vs DOS HERMANAS CLUB DE FÚTBOL 1971",
+          "local": "CALAVERA C.F.",
+          "visitante": "DOS HERMANAS CLUB DE FÚTBOL 1971",
+          "fecha": "01/11/2026",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+        },
         "9": {
           "partido": "CALAVERA C.F. vs LA MOTILLA F.C.",
           "local": "CALAVERA C.F.",
@@ -68,6 +84,22 @@
           "fecha": "15/11/2026",
           "hora": "Horario por definir",
           "campo": "Sevilla - ANTONIO PUERTA IMD (F11-F7)Hierba Artificial"
+        },
+        "11": {
+          "partido": "CALAVERA C.F. vs A.D. CERRO DEL AGUILA",
+          "local": "CALAVERA C.F.",
+          "visitante": "A.D. CERRO DEL AGUILA",
+          "fecha": "22/11/2026",
+          "hora": "Horario por definir",
+          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+        },
+        "12": {
+          "partido": "LA LIARA BALOMPIE vs CALAVERA C.F.",
+          "local": "LA LIARA BALOMPIE",
+          "visitante": "CALAVERA C.F.",
+          "fecha": "29/11/2026",
+          "hora": "Horario por definir",
+          "campo": "Palacios (Los) - MARISMAS MUNICIPAL (F11-F7)Hierba Artificial"
         },
         "13": {
           "partido": "CALAVERA C.F. vs U.D. MORON C.F.",
@@ -100,28 +132,22 @@
           "campo": "Sevilla - DEMETRIO PICHEL CD (F11-F7)Hierba Artificial"
         },
         "2": {
-          "partido": "U.D. BELLAVISTA vs DAVID CASTEDO 3 (DC 3) C.D. \"B\"",
-          "local": "U.D. BELLAVISTA",
-          "visitante": "DAVID CASTEDO 3 (DC 3) C.D. \"B\"",
-          "fecha": "03/10/2026",
-          "hora": "Horario por definir",
-          "campo": "Sevilla - UD BELLAVISTA CAMPO EDUARDO HERRERA(F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "3": {
-          "partido": "SEVILLA F.C., S.A.D. \"B\" vs U.D. BELLAVISTA",
-          "local": "SEVILLA F.C., S.A.D. \"B\"",
-          "visitante": "U.D. BELLAVISTA",
-          "fecha": "11/10/2026",
-          "hora": "Horario por definir",
-          "campo": "Dos Hermanas - JOSE RAMÓN CISNEROS CIUDAD DEPORTIVA (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "4": {
-          "partido": "C.D. PAYASOS CROUSS vs DAVID CASTEDO 3 (DC 3) C.D. \"B\"",
-          "local": "C.D. PAYASOS CROUSS",
-          "visitante": "DAVID CASTEDO 3 (DC 3) C.D. \"B\"",
-          "fecha": "17/10/2026",
-          "hora": "Horario por definir",
-          "campo": "Sevilla - BELLAVISTA CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "5": {
           "partido": "Descansa o jornada sin publicar",
