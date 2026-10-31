@@ -1,5 +1,5 @@
 {
-  "ultima_actualizacion": "31/10/2026 14:27",
+  "ultima_actualizacion": "31/10/2026 21:22",
   "competiciones": {
     "senior_calavera": {
       "nombre": "2ª Andaluza Senior - Gr. 1",
@@ -93,14 +93,6 @@
           "hora": "Horario por definir",
           "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
         },
-        "12": {
-          "partido": "LA LIARA BALOMPIE vs CALAVERA C.F.",
-          "local": "LA LIARA BALOMPIE",
-          "visitante": "CALAVERA C.F.",
-          "fecha": "29/11/2026",
-          "hora": "Horario por definir",
-          "campo": "Palacios (Los) - MARISMAS MUNICIPAL (F11-F7)Hierba Artificial"
-        },
         "13": {
           "partido": "CALAVERA C.F. vs U.D. MORON C.F.",
           "local": "CALAVERA C.F.",
@@ -132,10 +124,12 @@
           "campo": "Sevilla - DEMETRIO PICHEL CD (F11-F7)Hierba Artificial"
         },
         "2": {
-          "partido": "Descansa o jornada sin publicar",
-          "fecha": "---",
-          "hora": "---",
-          "campo": "---"
+          "partido": "C.D. PAYASOS CROUSS vs U.D. DOS HERMANAS",
+          "local": "C.D. PAYASOS CROUSS",
+          "visitante": "U.D. DOS HERMANAS",
+          "fecha": "03/10/2026",
+          "hora": "11:00",
+          "campo": "Sevilla - BELLAVISTA CD (F11-F7)Hierba Artificial"
         },
         "3": {
           "partido": "Descansa o jornada sin publicar",
