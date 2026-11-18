@@ -1,121 +1,93 @@
 {
-  "ultima_actualizacion": "17/11/2026 17:32",
+  "ultima_actualizacion": "18/11/2026 00:52",
   "competiciones": {
     "senior_calavera": {
       "nombre": "2ª Andaluza Senior - Gr. 1",
       "equipo": "CALAVERA",
       "jornadas": {
         "1": {
-          "partido": "C.D. DE FÚTBOL HERRERA vs CALAVERA C.F.",
-          "local": "C.D. DE FÚTBOL HERRERA",
-          "visitante": "CALAVERA C.F.",
-          "fecha": "13/09/2026",
-          "hora": "19:00",
-          "campo": "Herrera - POLIDEPORTIVO MUNICIPAL ESTADIO JUAN BENJUMEA (F11)Hierba Natural"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "2": {
-          "partido": "CALAVERA C.F. vs ESTRELLA SAN AGUSTIN",
-          "local": "CALAVERA C.F.",
-          "visitante": "ESTRELLA SAN AGUSTIN",
-          "fecha": "20/09/2026",
-          "hora": "20:00",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "3": {
-          "partido": "CLUB ATLÉTICO CENTRAL vs CALAVERA C.F.",
-          "local": "CLUB ATLÉTICO CENTRAL",
-          "visitante": "CALAVERA C.F.",
-          "fecha": "27/09/2026",
-          "hora": "11:00",
-          "campo": "Alcalá De Guadaíra - CIUDAD DE ALCALÁ NUEVO ESTADIO (F11)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "4": {
-          "partido": "CALAVERA C.F. vs C.D. CABECENSE",
-          "local": "CALAVERA C.F.",
-          "visitante": "C.D. CABECENSE",
-          "fecha": "04/10/2026",
-          "hora": "13:15",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "5": {
-          "partido": "C.D. FUENTES vs CALAVERA C.F.",
-          "local": "C.D. FUENTES",
-          "visitante": "CALAVERA C.F.",
-          "fecha": "11/10/2026",
-          "hora": "12:00",
-          "campo": "Fuentes De Andalucía - EL BARRACÓN(F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "6": {
-          "partido": "CALAVERA C.F. vs ECIJA BALOMPIE, S.A.D.",
-          "local": "CALAVERA C.F.",
-          "visitante": "ECIJA BALOMPIE, S.A.D.",
-          "fecha": "18/10/2026",
-          "hora": "16:00",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "7": {
-          "partido": "P.D. ROCIERA vs CALAVERA C.F.",
-          "local": "P.D. ROCIERA",
-          "visitante": "CALAVERA C.F.",
-          "fecha": "25/10/2026",
-          "hora": "12:00",
-          "campo": "Dos Hermanas - MANUEL ADAME BRUÑA MUNICIPAL (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "8": {
-          "partido": "CALAVERA C.F. vs DOS HERMANAS CLUB DE FÚTBOL 1971",
-          "local": "CALAVERA C.F.",
-          "visitante": "DOS HERMANAS CLUB DE FÚTBOL 1971",
-          "fecha": "30/10/2026",
-          "hora": "20:00",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "9": {
-          "partido": "CALAVERA C.F. vs LA MOTILLA F.C.",
-          "local": "CALAVERA C.F.",
-          "visitante": "LA MOTILLA F.C.",
-          "fecha": "07/11/2026",
-          "hora": "20:00",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "10": {
-          "partido": "C.D. ASOC. DVA. NERVION vs CALAVERA C.F.",
-          "local": "C.D. ASOC. DVA. NERVION",
-          "visitante": "CALAVERA C.F.",
-          "fecha": "15/11/2026",
-          "hora": "13:00",
-          "campo": "Sevilla - ANTONIO PUERTA IMD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "11": {
-          "partido": "CALAVERA C.F. vs A.D. CERRO DEL AGUILA",
-          "local": "CALAVERA C.F.",
-          "visitante": "A.D. CERRO DEL AGUILA",
-          "fecha": "22/11/2026",
-          "hora": "11:15",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "12": {
-          "partido": "LA LIARA BALOMPIE vs CALAVERA C.F.",
-          "local": "LA LIARA BALOMPIE",
-          "visitante": "CALAVERA C.F.",
-          "fecha": "29/11/2026",
-          "hora": "Horario por definir",
-          "campo": "Palacios (Los) - MARISMAS MUNICIPAL (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "13": {
-          "partido": "CALAVERA C.F. vs U.D. MORON C.F.",
-          "local": "CALAVERA C.F.",
-          "visitante": "U.D. MORON C.F.",
-          "fecha": "06/12/2026",
-          "hora": "Horario por definir",
-          "campo": "Sevilla - CALAVERA CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "14": {
-          "partido": "C.D. EL PALMAR VEREDA REAL vs CALAVERA C.F.",
-          "local": "C.D. EL PALMAR VEREDA REAL",
-          "visitante": "CALAVERA C.F.",
-          "fecha": "08/12/2026",
-          "hora": "Horario por definir",
-          "campo": "Utrera - EL PALMAR CAMPO MUNICIPAL DEPORTESHierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         }
       }
     },
@@ -124,12 +96,10 @@
       "equipo": "SEVILLA",
       "jornadas": {
         "1": {
-          "partido": "SAN ROQUE BALOMPIE \"B\" vs A.C.D. ENTRETORRES",
-          "local": "SAN ROQUE BALOMPIE \"B\"",
-          "visitante": "A.C.D. ENTRETORRES",
-          "fecha": "25/09/2026",
-          "hora": "21:00",
-          "campo": "Sevilla - DEMETRIO PICHEL CD (F11-F7)Hierba Artificial"
+          "partido": "Descansa o jornada sin publicar",
+          "fecha": "---",
+          "hora": "---",
+          "campo": "---"
         },
         "2": {
           "partido": "Descansa o jornada sin publicar",
